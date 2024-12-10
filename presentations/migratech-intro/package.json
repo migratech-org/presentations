@@ -1,0 +1,10 @@
+{
+  "name": "@migratech-org/presentations-migratech-intro",
+  "version": "1.0.0",
+  "description": "Presentation about Hackerspaces in Berlin",
+  "scripts": {
+    "test": "gulp test",
+    "start": "gulp serve",
+    "build": "gulp build"
+  }
+}
