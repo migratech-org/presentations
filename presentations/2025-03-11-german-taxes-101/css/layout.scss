@@ -1,0 +1,120 @@
+/**
+ * Layout helpers.
+ */
+
+// Stretch an element vertically based on available space
+.reveal .stretch,
+.reveal .r-stretch {
+	max-width: none;
+	max-height: none;
+}
+
+.reveal pre.stretch code,
+.reveal pre.r-stretch code {
+	height: 100%;
+	max-height: 100%;
+	box-sizing: border-box;
+}
+
+// Text that auto-fits its container
+.reveal .r-fit-text {
+	display: inline-block; // https://github.com/rikschennink/fitty#performance
+	white-space: nowrap;
+}
+
+// Stack multiple elements on top of each other
+.reveal .r-stack {
+	display: grid;
+	grid-template-rows: 100%;
+}
+
+.reveal .r-stack > * {
+	grid-area: 1/1;
+	margin: auto;
+}
+
+// Horizontal and vertical stacks
+.reveal .r-vstack,
+.reveal .r-hstack {
+	display: flex;
+
+	img, video {
+		min-width: 0;
+		min-height: 0;
+		object-fit: contain;
+	}
+}
+
+.reveal .r-vstack {
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.reveal .r-hstack {
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+// Naming based on tailwindcss
+.reveal .items-stretch { align-items: stretch; }
+.reveal .items-start { align-items: flex-start; }
+.reveal .items-center { align-items: center; }
+.reveal .items-end { align-items: flex-end; }
+
+.reveal .justify-between { justify-content: space-between; }
+.reveal .justify-around { justify-content: space-around; }
+.reveal .justify-start { justify-content: flex-start; }
+.reveal .justify-center { justify-content: center; }
+.reveal .justify-end { justify-content: flex-end; }
+
+
+//** Styles **//
+
+.flex {
+	display: flex;
+	gap: 2rem;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.mt-auto {
+	margin-top: auto;
+}
+
+
+:root {
+  // --r-background-color: #282A36;
+  // --r-main-font: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  // --r-main-font-size: 40px;
+  // --r-main-color: #F8F8F2;
+  // --r-block-margin: 20px;
+  // --r-heading-margin: 0 0 20px 0;
+  // --r-heading-font: League Gothic, Impact, sans-serif;
+  // --r-heading-color: #BD93F9;
+  // --r-heading-line-height: 1.2;
+  // --r-heading-letter-spacing: normal;
+  // --r-heading-text-transform: none;
+  // --r-heading-text-shadow: none;
+  // --r-heading-font-weight: normal;
+  // --r-heading1-text-shadow: none;
+  // --r-heading1-size: 3.77em;
+  --r-heading2-size: 1.5em !important;
+  // --r-heading3-size: 1.55em;
+  // --r-heading4-size: 1em;
+  // --r-code-font: Fira Code, Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+  // --r-link-color: #FF79C6;
+  // --r-link-color-dark: rgb(255, 64.6, 174.0089552239);
+  // --r-link-color-hover: #8BE9FD;
+  // --r-selection-background-color: #44475A;
+  // --r-selection-color: #fff;
+  // --r-overlay-element-bg-color: 240, 240, 240;
+  // --r-overlay-element-fg-color: 0, 0, 0;
+}

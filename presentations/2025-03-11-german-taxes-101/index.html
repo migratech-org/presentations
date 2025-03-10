@@ -1,0 +1,854 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+      name="viewport"
+    />
+
+    <title>MigraTech</title>
+
+    <link href="dist/reset.css" rel="stylesheet" />
+    <link href="dist/reveal.css" rel="stylesheet" />
+    <link href="dist/theme/dracula.css" rel="stylesheet" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link href="plugin/highlight/monokai.css" rel="stylesheet" />
+    <style>
+      .slide-footer {
+        font-size: medium;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h2>German Taxes 101 for Tech workers</h2>
+          <img
+            src="assets/wood-needed-guy.jpg"
+            style="width: 50%; height: auto"
+          />
+        </section>
+        <section>
+          <h2>Disclaimer</h2>
+          <p>
+            This is not a legal advice. This is a general information about
+            taxes in Germany.
+          </p>
+          <p>Please consult a tax lawyer for legal advice.</p>
+        </section>
+        <section>
+          <h3>What are Taxes?</h3>
+          <div class="fragment">
+            <p>
+              It's the money collected by the
+              <span style="color: red">Finanzamt</span> (Tax Office) to fund the
+              German state.
+            </p>
+            <img style="width: 50%" src="assets/tax-collector.jpg" alt="" />
+          </div>
+        </section>
+        <section>
+          <h3>Examples of Taxes</h3>
+          <div style="display: flex; gap: 2rem">
+            <ul>
+              <li>Income Tax</li>
+              <li>Solidarity Surcharge</li>
+              <li>Capital Gain</li>
+              <li>VAT (Value Added Tax)</li>
+              <li>Corportate Tax</li>
+              <li>Trade Tax</li>
+              <li>Import Tax</li>
+              <li>Inheritance tax</li>
+            </ul>
+            <ul>
+              <li>Property Tax</li>
+              <li>Real-estate Transfer tax</li>
+              <li>Lottery tax</li>
+              <li>Fire protection tax</li>
+              <li>Dog tax</li>
+              <li>Beer Tax</li>
+              <li>Entertainment tax</li>
+              <li>...many more!</li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h3>Other deductions</h3>
+          <ul>
+            <li>Church Tax</li>
+            <li>Social Contributions</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Tax Revenue in Berlin</h3>
+          <div style="text-align: left">
+            <p class="fragment">
+              In 2024, Income and Sales tax makes up to
+              <span style="color: #7070ff">52.5%</span> of the Berlin state
+              revenue. (Source:
+              <a
+                href="https://daten.berlin.de/datensaetze/steuereinnahmen-des-landes-berlin-2024-1493690"
+                >Berlin Open Data</a
+              >)
+            </p>
+            <p class="fragment">
+              About
+              <span style="color: #7070ff">27% (1 million resident)</span> of
+              Berlin are foreign nationals without voting rights. (Source:
+              <a
+                href="https://www.destatis.de/EN/Themes/Society-Environment/Population/Migration-Integration/Tables/foreign-population-laender.html"
+                >Statistisches Bundesamt</a
+              >)
+            </p>
+          </div>
+        </section>
+        <section>
+          <h3>Tax Revenue in Berlin</h3>
+          <div style="text-align: left">
+            Sources to find information about taxes statistics:
+            <ul>
+              <li>
+                <a
+                  href="https://www.destatis.de/EN/Themes/Government/Taxes/_node.html"
+                  >Taxes by Statistisches Bundesamt</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://daten.berlin.de/datensaetze?q=Steuereinnahmen%2520des%2520Landes%2520Berlin%255C&sort=score+desc%2C+metadata_modified+desc"
+                  >Berlin Open Data (Search: Steuereinnahmen des Landes
+                  Berlin)</a
+                >
+              </li>
+              <li>
+                <a href="https://www.berlin.de/sen/finanzen/steuern/"
+                  >Senats­verwaltung für Finanzen</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h3>Tax Spending</h3>
+          <div style="position: relative">
+            <div
+              class="fragment fade-in-then-out"
+              style="position: absolute; width: 100%"
+            >
+              <p>Infrastructure</p>
+              <figure>
+                <img src="assets/verspatung.jpg" width="50%" />
+                <figcaption>
+                  <small style="font-size: 10px">
+                    <a
+                      href="https://commons.wikimedia.org/wiki/File:Anzeigetafel_Versp%C3%A4tung.jpg"
+                    >
+                      Picture by Sebastian Terfloth</a
+                    >
+                  </small>
+                </figcaption>
+              </figure>
+            </div>
+            <div
+              class="fragment fade-in-then-out"
+              style="position: absolute; width: 100%"
+            >
+              <p>Schools</p>
+              <figure>
+                <img src="assets/german-school.jpg" width="50%" />
+                <figcaption>
+                  <small style="font-size: 10px">
+                    <a
+                      href="https://unsplash.com/photos/a-classroom-filled-with-lots-of-desks-and-chairs-Qw6wa96IvvQ"
+                      >Picture by Nathan Cima</a
+                    >
+                  </small>
+                </figcaption>
+              </figure>
+            </div>
+            <div
+              class="fragment fade-in-then-out"
+              style="position: absolute; width: 100%"
+            >
+              <p>Hospitals</p>
+              <figure>
+                <img src="assets/charitie.jpg" width="50%" />
+                <figcaption>
+                  <small style="font-size: 10px">
+                    <a
+                      href="https://commons.wikimedia.org/wiki/File:2016_Charite_Hospital.jpg"
+                      >Picture by INTERRAILS</a
+                    >
+                  </small>
+                </figcaption>
+              </figure>
+            </div>
+            <div
+              class="fragment fade-in-then-out"
+              style="position: absolute; width: 100%"
+            >
+              <p>Firefighers</p>
+              <figure>
+                <img src="assets/firefigthers.jpg" width="50%" />
+                <figcaption>
+                  <small style="font-size: 10px">
+                    <a
+                      href="https://commons.wikimedia.org/wiki/File:Aircraft_Rescue_Firefighting_training.jpg"
+                      >Picture by Manuel F. Guerrero
+                    </a>
+                  </small>
+                </figcaption>
+              </figure>
+            </div>
+            <div
+              class="fragment fade-in-then-out"
+              style="position: absolute; width: 100%"
+            >
+              <p>Politicians</p>
+              <figure>
+                <img src="assets/politicians.jpg" width="50%" />
+                <figcaption>
+                  <small style="font-size: 10px">
+                    <a
+                      href="https://commons.wikimedia.org/wiki/File:2024-10-24_Politik,_Ministerpr%C3%A4sidentenkonferenz_2024_Leipzig_STP_8064_by_Stepro.jpg"
+                      >Picture by Steffen Prößdorf
+                    </a>
+                  </small>
+                </figcaption>
+              </figure>
+              <div style="font-size: 0.5em">
+                Note: Winning German parties above 0.5% gets public funding
+                (Parteiengesetz § 18)
+              </div>
+            </div>
+            <div
+              class="fragment fade-in-then-out"
+              style="position: absolute; width: 100%"
+            >
+              <p>Da Police</p>
+              <figure>
+                <img src="assets/police.jpg" width="40%" />
+              </figure>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h3>Tax Spending</h3>
+          <div>
+            <p>More detals on Berlin's budget spending</p>
+            <a
+              href="https://www.berlin.de/sen/finanzen/haushalt/downloads/haushaltsplan-2024-25/artikel.1414232.php#headline_1_3_0_0"
+              >Berlin's Haushaltsplan 2024/2025</a
+            >
+          </div>
+        </section>
+        <section>
+          <h3>Social Contributions</h3>
+          <div class="fragment" style="text-align: left">
+            <p>As an employee, you pay:</p>
+            <ul>
+              <li>Health Insurance (Krankenversicherung)</li>
+              <li>Long-term Care Insurance (Pflegeversicherung)</li>
+              <li>Unemployment Insurance (Arbeitslosenversicherung)</li>
+              <li>Pensions (Rentenversicherung)</li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h3>Key Terminologies: Brutto vs Netto</h3>
+          <div style="text-align: left">
+            <p class="fragment"><strong>Brutto (Gross)</strong></p>
+            <ol style="padding-left: 40px">
+              <li>Company is paying you money</li>
+              <li>Social Contributions takes their share from you</li>
+              <li>Mr. Taxman comes and takes their share from you</li>
+            </ol>
+            <p class="fragment"><strong>Netto (Net)</strong></p>
+            <ol style="padding-left: 40px">
+              <li style="visibility: hidden; position: absolute"></li>
+              <li style="visibility: hidden; position: absolute"></li>
+              <li style="visibility: hidden; position: absolute"></li>
+              <li>Whatever is left, is what you get into your bank</li>
+            </ol>
+          </div>
+        </section>
+        <section>
+          <h3>Key Terminologies: Taxable Income</h3>
+          <div style="text-align: left">
+            <p>
+              It's your: <br />
+              &nbsp;&nbsp;&nbsp;<span style="color: #7070ff"
+                >Gross Total Global Income</span
+              >
+              <br />
+              - <span style="color: red">Social Contributions</span> <br />
+              - <span style="color: red">Work-related expenses</span> <br />
+              - <span style="color: red">Tax Allowances</span> <br />
+              = <span style="color: green">Taxable Income</span>
+            </p>
+          </div>
+        </section>
+        <section>
+          <h3>Key Terminologies: Tax Brackets</h3>
+          <div style="text-align: left" class="fragment">
+            <ul>
+              <li>It's called Steuertarifstufen</li>
+              <li>
+                It's regulated under (<a
+                  href="https://www.gesetze-im-internet.de/estg/__32a.html"
+                  >EStG § 32a</a
+                >)
+              </li>
+              <li>
+                Progressive Tax System
+                <ul>
+                  <li>The more you earn, the more you pay in taxes.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h3>Key Terminologies: Tax Brackets</h3>
+          <div style="text-align: left" class="fragment">
+            <ul>
+              <li>
+                Tax amount are divided into 5 zones
+                <ul>
+                  <li>€12.096: 0%</li>
+                  <li>€12.097 to €17.443: 14-24%</li>
+                  <li>€17.444 to €68.480: 24-42%</li>
+                  <li>€68.481 to €277.825: 42%</li>
+                  <li>€277.826 and above: 45%</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h3>Key Terminologies: Tax Brackets</h3>
+          <div>
+            <figure>
+              <img src="assets/tax-brackets.png" width="80%" />
+              <figcaption>
+                <small style="font-size: 16px">
+                  <a
+                    href="https://commons.wikimedia.org/wiki/File:ESt_D_Splittingtarif_2022_zvE_bis_150000.svg"
+                  >
+                    Picture by Udo.Brechtel. Plotting code is available on
+                    Wikimedia.</a
+                  >
+                </small>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+        <section>
+          <h3 style="font-size: 1.4em">
+            Key Terminologies: Solidarity Surcharge
+          </h3>
+          <div style="text-align: left" class="fragment">
+            <ul class="fragment">
+              <li>
+                Solidarity Surcharge (Solidaritätszuschlag) is regulated under
+                <a
+                  href="https://www.gesetze-im-internet.de/solzg_1995/BJNR097500993.html"
+                  >SolzG 1995</a
+                >
+                and
+                <a href="https://www.buzer.de/4_InflAusG.htm"
+                  >InflAusG Artikel 4</a
+                >
+              </li>
+            </ul>
+            <ul class="fragment">
+              <li>It's a 5.5% tax on your income tax.</li>
+              <li>
+                It's applied on high threshold of income tax
+                <ul style="font-size: 0.7em">
+                  <li>€19.950 as of 2025</li>
+                </ul>
+              </li>
+              <li>
+                It's also applied to other types of taxes
+                <ul style="font-size: 0.7em">
+                  <li>For example, Corporate and Capital Gains tax</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="fragment">
+              <li>
+                Originally was introduced to fund the
+                <a href="https://dserver.bundestag.de/btd/12/002/1200220.pdf"
+                  >Second Gulf War and also the reunification of East and West
+                  Germany</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>Tax Calculators</h3>
+          <div style="text-align: left">
+            <p>To calculate your tax, you can use:</p>
+            <ul>
+              <li>
+                <a href="https://www.bmf-steuerrechner.de/index.xhtml"
+                  >Bundesministerium der Finanzen (BMF)'s Official calculator</a
+                >
+              </li>
+              <li>
+                <a href="https://allaboutberlin.com/tools/tax-calculator"
+                  >All About Berlin's interactive calculator
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h3>Key Terminologies: Tax classes</h3>
+          <div style="text-align: left">
+            <p>
+              It's called Steuerklassen. <br />
+              It's regulated under (<a
+                href="https://www.gesetze-im-internet.de/estg/__38b.html"
+                >EStG § 38b</a
+              >).
+            </p>
+            <ul>
+              <li>
+                <strong>Class I</strong>: Single, divorced, separated, widowed
+              </li>
+              <li><strong>Class II</strong>: Single parent</li>
+              <li><strong>Class III</strong>: Married, with higher income</li>
+              <li><strong>Class IV</strong>: Married, with similar income</li>
+              <li><strong>Class V</strong>: Married, with lower income</li>
+              <li>
+                <strong>Class VI</strong>: Second Employment wages (not
+                freelance), no Tax number provided
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h3 style="font-size: 1.4em">
+            Key Terminologies: Social Contributions
+          </h3>
+          <div style="text-align: left" class="fragment">
+            <ul>
+              <li>It's called Sozialabgaben.</li>
+              <li>Mandatory payment to the social security system.</li>
+              <li>They are calculated on the gross taxable income.</li>
+              <li>They aren't affected by work-related expenses.</li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h3 style="font-size: 1.4em">
+            Key Terminologies: Social Contributions
+          </h3>
+          <div style="text-align: left; font-size: 0.8em" class="fragment">
+            <p>They are:</p>
+            <ul>
+              <li class="fragment">
+                <strong>
+                  14.6% : Gesetzliche Krankenversicherung -
+                  <a href="https://www.gesetze-im-internet.de/sgb_5/__241.html"
+                    >SGB V § 241</a
+                  >
+                </strong>
+                <ul style="font-size: 0.8em">
+                  <li>Statutory Health Insurance</li>
+                </ul>
+              </li>
+              <li class="fragment">
+                <strong>
+                  1.84% - 4.4% : GKV Zusatzbeitrag -
+                  <a href="https://www.gesetze-im-internet.de/sgb_5/__242.html"
+                    >SGB V § 241</a
+                  >
+                </strong>
+                <ul style="font-size: 0.8em">
+                  <li>Additional Health Insurance</li>
+                  <li>Percentage is variable</li>
+                </ul>
+              </li>
+              <li class="fragment">
+                <strong>
+                  3.4% - 4% : Pflegeversicherung -
+                  <a href="https://www.gesetze-im-internet.de/sgb_11/__55.html"
+                    >SGB XI § 55</a
+                  >
+                </strong>
+                <ul style="font-size: 0.8em">
+                  <li>Long-term Care Insurance</li>
+                  <li>Percentage depends on having children</li>
+                </ul>
+              </li>
+              <li class="fragment">
+                <strong>
+                  18.6% : Rentenversicherung -
+                  <a href="https://www.gesetze-im-internet.de/sgb_6/__287.html"
+                    >SGB VI § 287</a
+                  >
+                </strong>
+                <ul style="font-size: 0.8em">
+                  <li>Pension Insurance</li>
+                </ul>
+              </li>
+              <li class="fragment">
+                <strong>
+                  2.6% : Arbeitslosenversicherung -
+                  <a href="https://www.gesetze-im-internet.de/sgb_3/__341.html"
+                    >SGB III § 341</a
+                  >
+                </strong>
+                <ul style="font-size: 0.8em">
+                  <li>Unemployment Insurance (ALG 1)</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h3 style="font-size: 1.4em"></h3>
+          <div>
+            <img src="assets/auslander-raus-meme.jpg" alt="" />
+          </div>
+        </section>
+        <section>
+          <h3>Key Terminologies: Tax declaration</h3>
+          <div class="fragment" style="text-align: left">
+            <p class="fragment">
+              It's used to adjust the amount of taxes you have paid and get
+              overpaid taxes refunded.
+            </p>
+            <ul class="fragment">
+              <li>Immigration/Relocation</li>
+              <li>Work-related expenses.</li>
+              <li>Social changes.</li>
+              <li>Medical expenses</li>
+              <li>Work changes</li>
+              <li>New law with tax allowance</li>
+              <li>...and many many more reasons.</li>
+            </ul>
+            <p class="fragment">
+              <strong>
+                It's always 100% worth it to file a tax declaration!
+              </strong>
+            </p>
+          </div>
+        </section>
+        <section>
+          <h3>Key Terminologies: Tax declaration</h3>
+          <div class="fragment" style="text-align: left">
+            <ul>
+              <li>Social contributions are not refundable!</li>
+              <li>For self-employed/freelancers, it can be refunded.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>Understanding your payslip</h3>
+          <div class="fragment" style="text-align: left; font-size: 0.8em">
+            <ul>
+              <li>
+                Your right to receive a payslip is regulated under
+                <a href="https://www.gesetze-im-internet.de/gewo/__108.html"
+                  >GewO § 108</a
+                >
+              </li>
+              <li>
+                It's called Gehaltsabrechnung or Lohnabrechnung in German.
+              </li>
+              <li>
+                It show details of your income, social contributions, and taxes
+                paid.
+              </li>
+              <li>You will receive it monthly.</li>
+              <li>
+                There is a yearly summary called
+                <span style="color: #7070ff">Lohnsteuerbescheinigung</span> and
+                it's used for tax declaration.
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h3 style="font-size: 1.2em">Understanding your payslip</h3>
+          <div class="fragment" style="overflow-y: scroll; height: 50vh">
+            <img
+              src="assets/payslip-full.png"
+              style="width: 100%; max-height: initial; height: auto"
+              alt=""
+            />
+          </div>
+          <a
+            href="https://www.datev.de/web/de/datev-shop/material/musterauswertung-lohn-und-gehalt-classiccomfortcompact/"
+            style="font-size: 12px"
+            >Source</a
+          >
+        </section>
+        <section>
+          <h3 style="font-size: 1.2em">Understanding your payslip</h3>
+          <div class="fragment" style="overflow-y: scroll; height: 50vh">
+            <img
+              src="assets/lohnsteuerbescheinigung.png"
+              style="width: 100%; max-height: initial; height: auto"
+              alt=""
+            />
+          </div>
+          <a
+            href="https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Lohnsteuer/2023-09-08-muster-ausdruck-elektronische-LSt-bescheinigung-2024.pdf?__blob=publicationFile&v=1"
+            style="font-size: 12px"
+            >Source</a
+          >
+        </section>
+        <section>
+          <h3>Filing your taxes</h3>
+          <div style="text-align: left">
+            <ul>
+              <li>Elster - Offical Tax Office Portal</li>
+              <li>Steuerberater - Tax Advisor</li>
+              <li>Steuerhilfeverein - Tax Help Association</li>
+              <li>
+                Software like WISO Steuer, SteuerSparErklärung, TaxFix, etc.
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h3>Filing your taxes: <a href="https://elster.de/">ELSTER</a></h3>
+          <img style="width: 80%" src="assets/elster.png" alt="" />
+        </section>
+        <section>
+          <h3>
+            Filing your taxes:
+            <a href="https://www.steuer-web.de/start/">WISO Steuer</a>
+          </h3>
+          <img style="width: 80%" src="assets/wiso-steuer.png" alt="" />
+        </section>
+        <section>
+          <h3 style="font-size: 1.3em">
+            Deductions, Allowances, and Tax Credits
+          </h3>
+          <div style="text-align: left; font-size: 0.8em">
+            <ul>
+              <li>
+                Deductions: Expenses that reduces taxable income
+                <ul style="font-size: 0.8em" class="fragment">
+                  <li>
+                    Business expenses, work-related expenses, donations, and
+                    medical costs.
+                  </li>
+                  <li>Steuerabzüge: Invoices will be required</li>
+                  <li>Pauschalen: Flat-rate lump sum without documentation</li>
+                  <br />
+                </ul>
+              </li>
+              <li>
+                Allowances: specific amounts that are exempted from taxation
+                <ul style="font-size: 0.8em" class="fragment">
+                  <li>
+                    Basic personal allowance, child allowance, disability
+                    allowance and capital gains allowance.
+                  </li>
+                  <li>Freibeträge</li>
+                  <br />
+                </ul>
+              </li>
+              <li>
+                Tax Credits: Fixed amount that reduces tax liability itself
+                <ul style="font-size: 0.8em" class="fragment">
+                  <li>
+                    Child tax credit, single-parent tax credit,
+                    education/training tax credit.
+                  </li>
+                  <li>Steuergutschriften</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h3 style="font-size: 1.3em">
+            Deductions, Allowances, and Tax Credits
+          </h3>
+          <div style="text-align: left; font-size: 0.8em">
+            <ul>
+              <li><strong>Relocation expenses</strong></li>
+              <li><strong>Commuter Allowance:</strong> €0.30/km</li>
+              <li>
+                <strong>Home office Lump Sum:</strong> €6/day (max: €1,260)
+              </li>
+              <li><strong>Work room Expenses</strong> (Arbeitszimmer)</li>
+              <li>
+                <strong>Employee Lump Sum:</strong> €1,230
+                (Arbeitnehmer-Pauschbetrag)
+              </li>
+              <li><strong>Travel expenses</strong></li>
+              <li><strong>Work equipments</strong></li>
+              <li><strong>Work internet and phone bills</strong></li>
+              <li><strong>Work clothes</strong></li>
+              <li><strong>Job Application</strong></li>
+              <li><strong>Job Search expenses</strong></li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h3 style="font-size: 1.3em">
+            Deductions, Allowances, and Tax Credits
+          </h3>
+          <div style="text-align: left; font-size: 0.8em">
+            <ul>
+              <li><strong>High medical expenses</strong></li>
+              <li><strong>Insurances</strong></li>
+              <li><strong>Childcare</strong></li>
+              <li>
+                <strong>Parents Maintence allowance</strong>
+                (Unterhaltshöchstbetrag)
+              </li>
+              <li>
+                <strong>Disability Allowance</strong>
+                (Behindertenpauschbetrag)
+              </li>
+              <li>
+                <strong>Parents Maintence allowance</strong>
+                (Unterhaltshöchstbetrag)
+              </li>
+              <li>
+                <strong>Double-household</strong>: Doppelte Haushaltsführung
+              </li>
+              <li>
+                <strong>Handyman Services</strong>:
+                <a href="https://finanzamt-bw.fv-bwl.de/%2CLen/5267689"
+                  >20% of the costs, max €1,200</a
+                >
+              </li>
+              <li>
+                <strong>Household services</strong>:
+                <a href="https://finanzamt-bw.fv-bwl.de/%2CLen/5267689">
+                  20% of the costs, max €4,000</a
+                >
+              </li>
+              <li>
+                <strong>Part of the Heizkosten</strong>
+              </li>
+              <li><strong>Capital Gains Tax Allowance</strong>: €1,000.</li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h3 style="font-size: 1.3em">
+            Deductions, Allowances, and Tax Credits
+          </h3>
+          <div style="text-align: left; font-size: 0.8em">
+            <ul>
+              <li><strong>Training and education</strong></li>
+              <li><strong>Donations in Germany</strong></li>
+              <li><strong>Donations in EU under certain conditions</strong></li>
+              <li><strong>Union membership fees</strong></li>
+              <li><strong>Political Party donations</strong></li>
+              <li>
+                <strong>Volunteer Work Allowance</strong>: €840,
+                (Ehrenamtspauschale)
+              </li>
+              <li>
+                <strong>Trainer Tax-Free Allowance</strong>: €3,000,
+                (Übungsleiterfreibetrag)
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h3>International Taxes</h3>
+          <div style="text-align: left; font-size: 0.8em">
+            <ul>
+              <li>
+                Germany has unlimited tax liability
+                <ul style="font-size: 0.7em">
+                  <li>Germany imposes taxes on all your worldwide income</li>
+                  <br />
+                </ul>
+              </li>
+              <li>
+                Double Taxation Agreement between Germany and your country
+                <ul style="font-size: 0.7em">
+                  <li>
+                    <a
+                      href="https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/doppelbesteuerungsabkommen.html#:~:text=Doppelbesteuerungsabkommen%20verteilen%20Besteuerungsrechte%20zwischen%20den,zu%2C%20um%20eine%20Doppelbesteuerung%20zu"
+                      >List of Double Taxation Agreements</a
+                    >
+                  </li>
+                  <br />
+                </ul>
+              </li>
+              <li>
+                Germany has an exit tax
+                <ul style="font-size: 0.7em">
+                  <li>
+                    If you leave Germany, you will have to pay an exit tax on
+                    your assets in Germany as if you sold them.
+                  </li>
+                  <br />
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h2 style="color: #f44336">🔥 Join MigraTech Orga meetings 🔥</h2>
+          <div style="display: flex">
+            <ul style="margin-top: auto; margin-bottom: auto">
+              <li>
+                Substack: <br /><a href="https://migratech.substack.com/"
+                  >migratech.substack.com</a
+                >
+              </li>
+              <li>
+                YouTube: <br /><a href="https://www.youtube.com/@migratech"
+                  >youtube.com/@migratech</a
+                >
+              </li>
+              <li>
+                Website: <br /><a href="https://www.migratech.org"
+                  >www.migratech.org</a
+                >
+              </li>
+            </ul>
+            <div style="width: 45%">
+              <img src="assets/telegram.png" width="60%" alt="Telegram group" />
+            </div>
+          </div>
+          <h4>Subscribe to Substack to receive the slides.</h4>
+          <h5 style="font-size: 0.8em; color: #ffc107">
+            ❤️ You deserve a better life ❤️ <br />
+            🫂 No one here to save us but ourselves 🫂 <br />
+          </h5>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
