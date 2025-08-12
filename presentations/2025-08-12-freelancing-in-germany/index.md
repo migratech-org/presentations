@@ -1,4 +1,4 @@
-# Frelancing in Germany
+# Freelancing in Germany
 
 ## **I. Legal Foundations: Choosing Your Business Structure**
 
