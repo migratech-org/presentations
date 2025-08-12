@@ -1,6 +1,6 @@
 # Frelancing in Germany
 
-## **I. LEGAL FOUNDATIONS: Choosing Your Business Structure**
+## **I. Legal Foundations: Choosing Your Business Structure**
 
 - **Company Types**:
   - _Einzelunternehmen_ (sole proprietorship – default for freelancers).
@@ -25,7 +25,7 @@
 
 ---
 
-## **II. SETUP & REGISTRATION: Getting Legally Operational**
+## **II. Setup and Registration: Getting Legally Operational**
 
 - **Institutions & Registrations**:
   - _Gewerbeamt_: **Gewerbeanmeldung** (trade registration for _Gewerbetreibende_).
@@ -53,7 +53,7 @@
 
 ---
 
-## **III. TAX COMPLIANCE: Declarations, Prepayments & Deadlines**
+## **III. Tax Compliance: Declarations, Prepayments & Deadlines**
 
 - **Tax Types & Calculations**:
   - _Income Tax_ (**Einkommensteuer**): On profit (not revenue!).
@@ -72,7 +72,7 @@
 
 ---
 
-### **IV. ACCOUNTING & BOOKKEEPING: Tracking Finances**
+### **IV. Accounting and Bookkeeping: Tracking Finances**
 
 _(How to record transactions correctly)_
 
@@ -91,7 +91,7 @@ _(How to record transactions correctly)_
 
 ---
 
-## **V. SOCIAL SECURITY & INSURANCE**
+## **V. Social Insurances**
 
 - **Mandatory Insurances**:
   - **Health Insurance** (_Krankenversicherung_): Public (e.g., TK) or private.
@@ -103,7 +103,7 @@ _(How to record transactions correctly)_
 
 ---
 
-## **VI. OPERATIONAL ESSENTIALS: Day-to-Day Running**
+## **VI. Operations Essentials: Day-to-Day Running**
 
 _(Beyond taxes – legal business operations)_
 
@@ -117,7 +117,7 @@ _(Beyond taxes – legal business operations)_
 
 ---
 
-## **VII. SPECIAL SCENARIOS & ADVANCED TOPICS**
+## **VII. Special Scenarios and Advanced Topics**
 
 _(For complex situations)_
 
@@ -131,7 +131,7 @@ _(For complex situations)_
 
 ---
 
-## **VIII. COMMON PITFALLS & PRO TIPS**
+## **VIII. Common Pitfalls**
 
 _(What guides rarely mention)_
 
